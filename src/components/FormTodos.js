@@ -30,7 +30,7 @@ const FormTodos = ({addTodoFunc, todos}) => {
             };
 
             //Reseteando los valores del Formulario
-            e.target.reset();
+            setinputTextTodo('');
 
             //Cambia el estado de las tareas
             addTodoFunc([...todos, objTodo]);
